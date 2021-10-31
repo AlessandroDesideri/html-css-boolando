@@ -37,6 +37,26 @@ body{
     padding-left: 20px;
 }
 
+.tag{
+    position: absolute;
+    bottom: 110px;
+}
+.sale{
+    display: inline-block;
+    background-color:#EB0037;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.eco{
+    display: inline-block;
+    background-color: #00875A;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
 .marca{
     font-size: 12px;
     margin-top: 7px;
