@@ -1,87 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <div class="img-container">
+  </head>
+  <body>
+    <main>
+      <!-- Container -->
 
-        <!-- Primo vestito -->
-        <div class="imagebox">
-            <img src="./img/1.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <div class="tag">
-                <div class="sale">-50%</div>
-                <div class="eco">Sostenibilità</div> 
-            </div>
-            <p class="marca">Levi's</p>
-            <p class="nome">RELAXED FIT TEE UNISEX</p>
-            <p class="prezzo">14,99€<span>29,99€</span></p>
+      <div class="container">
+        <!-- IMG 1 -->
+        <div class="img">
+          <img src="./img/1.webp" alt="" class="normal" />
+          <img src="./img/1b.webp" alt="" class="hover" />
+          <div class="brand">Levi's</div>
+          <div class="type">RELAXED FIT TEE UNISEX</div>
+          <span class="price">14,99 €</span>
+          <span class="crossed-out">29,99 €</span>
+          <div class="labels">
+            <span class="lab red"> -50% </span>
+            <span class="lab green"> Sostenibilità </span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- IMG 2 -->
+        <div class="img">
+          <img src="./img/2.webp" alt="" class="normal" />
+          <img src="./img/2b.webp" alt="" class="hover" />
+          <div class="brand">Guess</div>
+          <div class="type">ROSES TEE</div>
+          <span class="price"> 20,99 €</span>
+          <span class="crossed-out">29,99 €</span>
+          <div class="labels">
+            <span class="lab red"> -30% </span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- IMG 3 -->
+        <div class="img">
+          <img src="./img/3.webp" alt="" class="normal" />
+          <img src="./img/3b.webp" alt="" class="hover" />
+          <div class="brand">Come Zucchero Filato</div>
+          <div class="type">VOGLIA DI COLORI PASTELLO</div>
+          <span class="price">129,99 €</span>
+          <div class="labels">
+            <span class="lab red"> -30% </span>
+          </div>
+          <div class="heart">&hearts;</div>
         </div>
 
-        <!-- Secondo Vestito -->
-        <div class="imagebox">
-            <img src="./img/2.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <div class="tag">
-                <div class="sale">-50%</div> 
-            </div>
-            <p class="marca">Guess</p>
-            <p class="nome">ROSES TEE</p>
-            <p class="prezzo">20,99€<span>29,99€</span></p>
+        <!-- IMG 4 -->
+        <div class="img">
+          <img src="./img/4.webp" alt="" class="normal" />
+          <img src="./img/4b.webp" alt="" class="hover" />
+          <div class="brand">Levi's</div>
+          <div class="type">TEE UNISEX</div>
+          <span class="price">14,99 €</span>
+          <span class="crossed-out">29,99 €</span>
+          <div class="labels">
+            <span class="lab red"> -50% </span>
+            <span class="lab green"> Sostenibilità </span>
+          </div>
+          <div class="heart">&hearts;</div>
         </div>
-
-        <!-- Terzo Vestito -->
-        <div class="imagebox">
-            <img src="./img/3.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <div class="tag">
-                <div class="sale">-50%</div>
-            </div>
-            <p class="marca">Come Zucchero Filato</p>
-            <p class="nome">VOGLIA DI COLRI PASTELLO</p>
-            <p class="prezzo">129,99€</p>
+        <!-- IMG 5 -->
+        <div class="img">
+          <img src="./img/5.webp" alt="" class="normal" />
+          <img src="./img/5b.webp" alt="" class="hover" />
+          <div class="brand">Maya Deluxe</div>
+          <div class="type">STRIPE BODICE</div>
+          <span class="price">99,99 € €</span>
+          <div class="labels"></div>
+          <div class="heart">&hearts;</div>
         </div>
-
-        <!-- Quarto Vestito -->
-        <div class="imagebox">
-            <img src="./img/4.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <div class="tag">
-                <div class="sale">-50%</div>
-                <div class="eco">Sostenibilità</div> 
-            </div>
-            <p class="marca">Levi's</p>
-            <p class="nome">TEE UNISEX</p>
-            <p class="prezzo">14,99€<span>29,99€</span></p>
+        <!-- IMG 6 -->
+        <div class="img">
+          <img src="./img/6.webp" alt="" class="normal" />
+          <img src="./img/6b.webp" alt="" class="hover" />
+          <div class="brand">Espirit</div>
+          <div class="type">MAGLIONE - BLACK</div>
+          <span class="price">14,99 €</span>
+          <div class="labels">
+            <span class="lab green"> Sostenibilità </span>
+          </div>
+          <div class="heart">&hearts;</div>
         </div>
-
-        <!-- Quinto Vestito -->
-        <div class="imagebox">
-            <img src="./img/5.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <p class="marca">Maya Deluxe</p>
-            <p class="nome">STRIPE BODICE</p>
-            <p class="prezzo">99,99€</p>
-        </div>
-
-        <!-- Sesto Vestito -->
-        <div class="imagebox">
-            <img src="./img/6.webp" alt="">
-            <div class="cuore">&#9829</div>
-            <div class="tag">
-                <div class="eco">Sostenibilità</div> 
-            </div>
-            <p class="marca">Esprit</p>
-            <p class="nome">MAGLIONE - BLACK</p>
-            <p class="prezzo">29,99€</p>
-        </div>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
